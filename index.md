@@ -1,8 +1,6 @@
 ## Santa's Little Helper
 
-You can use the [editor on GitHub](https://github.com/deborah-74/Final-2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Alternate Realities project by Amina and Debbie!
 
 ### Background
 
@@ -14,16 +12,16 @@ This Christmas, Santa is overwhelmed because he has so many presents to deliver 
 
 ### Interaction Descriptions
 
--Sorting presents in the factory (ray interaction)
+- Sorting presents in the factory (ray interaction)
 Taking presents from treadmill and into boxes
 
--Putting boxes in sleigh (direct + ray)
+- Putting boxes in sleigh (direct + ray)
  Picking up the boxes and placing them in the sleigh
  
- -Starting the Santa Engine (direct)
+ - Starting the Santa Engine (direct)
  Take the key and place it into the right place
  
- -Teleportation inside the room (ray + direct)
+ - Teleportation inside the room (ray + direct)
  Moving around the environment
 
 ### Process
