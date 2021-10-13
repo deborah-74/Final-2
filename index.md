@@ -28,7 +28,7 @@ Taking presents from treadmill and into boxes
 
 1) Firstly, we needed to decide a method to use to design the environment, since no external assets were allowed. We came up with the idea of using cubes as ‘pixels’ to design the objects in the scene. Our inspiration was minecraft
 
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.31.06.png">
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.37.54.png">
 
 
 2) Secondly, (after adding an XR rig) we started designing the environment! Creating the christmas tree was the first asset on the list, as this would be important for the story going forward. This was made by stacking up a bunch of cubes. The great thing with this method was that everything could be done within unity, using the colours provided in the platform
