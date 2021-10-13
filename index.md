@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
+## Santa's Little Helper
 
 You can use the [editor on GitHub](https://github.com/deborah-74/Final-2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Background
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This Christmas, Santa is overwhelmed because he has so many presents to deliver and you are the only elf available to help him make preparations. You have three main tasks to complete in Santa’s magical factory!
 
-```markdown
-Syntax highlighted code block
+- Put presents on the conveyor belt
+- Put presents into Santa’s sack
+- Use the candy cane key to start the engine for Santa’s sleigh
 
-# Header 1
-## Header 2
-### Header 3
+### Interaction Descriptions
 
-- Bulleted
-- List
+-Sorting presents in the factory (ray interaction)
+Taking presents from treadmill and into boxes
 
-1. Numbered
-2. List
+-Putting boxes in sleigh (direct + ray)
+ Picking up the boxes and placing them in the sleigh
+ 
+ -Starting the Santa Engine (direct)
+ Take the key and place it into the right place
+ 
+ -Teleportation inside the room (ray + direct)
+ Moving around the environment
 
-**Bold** and _Italic_ and `Code` text
+### Process
 
-[Link](url) and ![Image](src)
-```
+1)Firstly, we needed to decide a method to use to design the environment, since no external assets were allowed. We came up with the idea of using cubes as ‘pixels’ to design the objects in the scene. Our inspiration was minecraft
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+2)Secondly, (after adding an XR rig) we started designing the environment! Creating the christmas tree was the first asset on the list, as this would be important for the story going forward. This was made by stacking up a bunch of cubes. The great thing with this method was that everything could be done within unity, using the colours provided in the platform
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/deborah-74/Final-2/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+3)The sleigh was also an important part of the story, so we used this same method to create a custom sleigh that would fly off at the end of the game.
+
+
+
+4)Santa’s Candy Cane key
+
+
+
+5)The next step was to create the interactables in the scene, which are the following: boxes/ presents using cubes/cylinders to create a desirable shape; santa’s sack/box; conveyor belt
+
+
+
+6)Next, we needed to start adding both ray and direct interactions to the scene
+
+7)Lifting the box onto the conveyer belt: both ray and direct interaction enabled with the attachment point in the bottom of the object. Simple script is written to track the position using onTriggerEnter and play sound after completing the task.
+Putting wrapped presents in Santa’s bag: both ray and direct interaction enabled with the attachment point in the bottom of the object. The code is the advancement from the first interaction script, which now includes a counter and has the same sound effect that plays after completing the task.
+Turning on the sleigh: direct interaction. The script utilizes all of the interaction concepts mentioned above as well as the lerp animation. Lerp is used to, first, turn the key 90 degrees and, second, make the sleigh slowly take off from the scene with a Happy Santa sound effect, indicating the end of the game.
+
+### Additional contributors to the scene
+
+-A large white plane to give the illusion of snow
+-A custom skybox that fits the ‘minecraft’ theme
+-Large white area light to imitate the blinding white of a factory
+-Christmas colours: red, white and green
+-Christmas theme sounds including background music
+
+### Challenges
+
+-Creating the assets was quite time-consuming and required a lot of brain power getting the design correct
+-Setting up Unity collaborate was also very difficult and we experienced several problems. So we just ended up working separately on our laptops on different parts of the project and combining our scenes later
+-Setting up the lerp animation with the key was also quite difficult
+
+### What we learnt
+
+Overall, we had a lot of fun creating our project and the main thing we learnt was how to create a storyline in unity without relying heavily on external assets and aesthetics. We mainly focused on using animations and interactions to build the environment and to create a storyline that makes sense.
