@@ -33,38 +33,38 @@ Taking presents from treadmill and into boxes
 
 2) Secondly, (after adding an XR rig) we started designing the environment! Creating the christmas tree was the first asset on the list, as this would be important for the story going forward. This was made by stacking up a bunch of cubes. The great thing with this method was that everything could be done within unity, using the colours provided in the platform
 
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.31.06.png?raw=true>
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.31.06.png?raw=true">
           
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.37.54.png?raw=true>
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-11%20at%2012.18.36.png?raw=true>
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.37.54.png?raw=true">
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-11%20at%2012.18.36.png?raw=true">
 
 
 
 3) The sleigh was also an important part of the story, so we used this same method to create a custom sleigh that would fly off at the end of the game.
 
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2017.14.50.png?raw=true>
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2017.14.50.png?raw=true">
 <img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/244770045_294526478855426_1339244246339577440_n.png?raw=true">
 
 4) Santa’s Candy Cane key
 
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-11%20at%2012.20.00.png?raw=true>
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-11%20at%2012.20.00.png?raw=true">
 
 5) The next step was to create the interactables in the scene, which are the following: boxes/ presents using cubes/cylinders to create a desirable shape; santa’s sack/box; conveyor belt
 
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-12%20at%2022.53.16.png?raw=true>
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-12%20at%2022.53.16.png?raw=true">
 
 
 6) Next, we needed to start adding both ray and direct interactions to the scene
 
 
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-12%20at%2022.53.16.png?raw=true>
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-12%20at%2022.53.16.png?raw=true">
 
 7) Lifting the box onto the conveyer belt: both ray and direct interaction enabled with the attachment point in the bottom of the object. Simple script is written to track the position using onTriggerEnter and play sound after completing the task.
 Putting wrapped presents in Santa’s bag: both ray and direct interaction enabled with the attachment point in the bottom of the object. The code is the advancement from the first interaction script, which now includes a counter and has the same sound effect that plays after completing the task.
 Turning on the sleigh: direct interaction. The script utilizes all of the interaction concepts mentioned above as well as the lerp animation. Lerp is used to, first, turn the key 90 degrees and, second, make the sleigh slowly take off from the scene with a Happy Santa sound effect, indicating the end of the game.
           
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-13%20at%2013.23.18.png?raw=true>
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-13%20at%2013.20.01.png?raw=true>
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-13%20at%2013.23.18.png?raw=true">
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-13%20at%2013.20.01.png?raw=true">
           
 ### Additional contributors to the scene
 
