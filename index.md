@@ -33,11 +33,9 @@ Taking presents from treadmill and into boxes
 
 2) Secondly, (after adding an XR rig) we started designing the environment! Creating the christmas tree was the first asset on the list, as this would be important for the story going forward. This was made by stacking up a bunch of cubes. The great thing with this method was that everything could be done within unity, using the colours provided in the platform
 
-<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.31.06.png?raw=true">
-          
+<img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.31.06.png?raw=true">      
 <img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-06%20at%2000.37.54.png?raw=true">
 <img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-11%20at%2012.18.36.png?raw=true">
-
 
 
 3) The sleigh was also an important part of the story, so we used this same method to create a custom sleigh that would fly off at the end of the game.
@@ -55,7 +53,6 @@ Taking presents from treadmill and into boxes
 
 
 6) Next, we needed to start adding both ray and direct interactions to the scene
-
 
 <img src="https://github.com/deborah-74/Santa-s-Little-Helper/blob/gh-pages/Screenshot%202021-10-12%20at%2022.53.16.png?raw=true">
 
